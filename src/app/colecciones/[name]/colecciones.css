@@ -78,68 +78,36 @@
     background: rgba(20, 22, 31, 1); /* Cambia el fondo a gris sólido */
   }
   
-@media screen and (max-width:500px){
-
+@media screen and (max-width:500px) {
   .colecciones__background {
-    width: 100%;
-    height: 100%;
-    background-image: url("https://res.cloudinary.com/dcf9eqqgt/image/upload/v1699389982/App%20peliculas/scale_kmvedz.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: -2; /* Coloca el fondo detrás del contenido */
+          background-color: rgb(20, 22, 31);
+          background-image: none;
+
+
   }
+
   .colecciones__backgrounddisney {
-    width: 100%;
-    height: 100%;
-    background-image: url("https://res.cloudinary.com/dcf9eqqgt/image/upload/v1699409467/App%20peliculas/f2ral8b5FoWsXyFbQ7928ZPjUm3_dltpwd.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: -2; /* Coloca el fondo detrás del contenido */
-  }
+          background-color: rgb(20, 22, 31);
+          object-fit: cover;
+
+
+
   .colecciones__backgroundpixar {
-    width: 100%;
-    height: 100%;
-    background-image: url("https://res.cloudinary.com/dcf9eqqgt/image/upload/v1699409039/App%20peliculas/wZiUsAI939lOKgs0u3qA3zSW7zx_nt8iue.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: -2; /* Coloca el fondo detrás del contenido */
-    object-fit: cover;
+          background-color: rgb(20, 22, 31);
+          object-fit: cover;
+
   }
 
   .colecciones__backgroundnational {
-    width: 100%;
-    height: 100%;
-    background-image: url("https://res.cloudinary.com/dcf9eqqgt/image/upload/v1699409344/App%20peliculas/Cheetah_Cubs_South_Africa-National_Geographic_wallpaper_1920x1080_kfvhv1.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: -2; /* Coloca el fondo detrás del contenido */
+          background-color: rgb(20, 22, 31);
+          object-fit: cover;
+
   }
-  .colecciones__backgroundstarWars{
-    width: 100%;
-    height: 100%;
-    background-image: url("https://res.cloudinary.com/dcf9eqqgt/image/upload/v1699409147/App%20peliculas/uK15I3sGd8AudO9z6J6vi0HH1UU_zxt4zk.jpg");
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: -2; /* Coloca el fondo detrás del contenido */
+
+  .colecciones__backgroundstarWars {
+          background-color: rgb(20, 22, 31);
+          object-fit: cover;
+
   }
+}
 }
