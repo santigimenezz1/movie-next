@@ -1,0 +1,18 @@
+.loadingBiografia{
+    width: 100%;
+    height: auto;
+    margin-top: 55px;
+    display: flex;
+    justify-content: start;
+    gap: 50px;
+    padding: 40px;
+}
+.loadingBiografia__info__tarjetas{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.loadingBiografia__info__tarjetas__tarjeta{
+    display: flex;
+    gap: 10px;
+}

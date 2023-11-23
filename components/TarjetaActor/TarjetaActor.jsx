@@ -1,7 +1,6 @@
 "use client"
 import React from 'react';
 import '../TarjetaActor/tarjetaActor.css';
-import '../../src/app/mediaQuery.css'
 
 const TarjetaActor = ({ actor }) => {
   const scrollToTop = () => {

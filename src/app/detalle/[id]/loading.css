@@ -1,0 +1,43 @@
+.loadingReparto{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    padding: 15px;
+}
+.loadingReparto__tarjetas{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: auto;
+    height: 250px;
+}
+
+.loadingDetalle{
+    border: 1px solid red;
+    width: 100%;
+    height: 500px;
+    margin-top: 100px;
+    display: flex;
+    padding: 30px;
+    gap: 70px;
+    padding-left: 110px;
+    background-color: rgba(255, 0, 0, 0.342);
+}
+.eskeleton__text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.loadingDetalle__temporadas__numeroTemporada{
+    display: flex;
+    gap: 10px;
+}
+.loadingDetalle__Temporadas__tarjetas{
+    display: flex;
+    gap: 10px;
+}

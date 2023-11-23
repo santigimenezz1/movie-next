@@ -1,8 +1,9 @@
 "use client"
 import React, { useState } from 'react';
-import YouTube from 'react-youtube';
 import '../BotonVideoYoutube/botonVideoYoutube.css'
 import Video from './Video/Video';
+import YouTube from 'react-youtube';
+
 
 const BotonVideoYoutube = ({setEstadoBotonCerrar,openVideo,showVideo, videoId }) => {
  

@@ -1,5 +1,5 @@
-import { buscarPelicula } from "@/src/app/peticionesFetch/page"
 import Link from "next/link"
+import { buscarPelicula } from "../PeticionesFetch/PeticionesFetch"
 
 async function TarjetaBiografia ( {trabajo} ){
     let idTrabajo = await trabajo.id
