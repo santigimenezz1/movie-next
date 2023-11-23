@@ -1,0 +1,11 @@
+.detalle__botonVolver{
+    width: 120px;
+    height: 30px;
+    border-radius: 4px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.407);
+    cursor: pointer;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
