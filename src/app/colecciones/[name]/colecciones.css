@@ -15,6 +15,8 @@
     top: 0;
     left: 0;
     z-index: -2; /* Coloca el fondo detrás del contenido */
+    object-fit: cover;
+
   }
   .colecciones__backgrounddisney {
     width: 100%;
@@ -27,6 +29,8 @@
     top: 0;
     left: 0;
     z-index: -2; /* Coloca el fondo detrás del contenido */
+    object-fit: cover;
+
   }
   .colecciones__backgroundpixar {
     width: 100%;
@@ -39,6 +43,8 @@
     top: 0;
     left: 0;
     z-index: -2; /* Coloca el fondo detrás del contenido */
+    object-fit: cover;
+
   }
 
   .colecciones__backgroundnational {
@@ -52,6 +58,8 @@
     top: 0;
     left: 0;
     z-index: -2; /* Coloca el fondo detrás del contenido */
+    object-fit: cover;
+
   }
   .colecciones__backgroundstarWars{
     width: 100%;
@@ -64,6 +72,7 @@
     top: 0;
     left: 0;
     z-index: -2; /* Coloca el fondo detrás del contenido */
+    object-fit: cover;
   }
   
   .colecciones__tarjetas {
@@ -78,36 +87,3 @@
     background: rgba(20, 22, 31, 1); /* Cambia el fondo a gris sólido */
   }
   
-@media screen and (max-width:500px) {
-  .colecciones__background {
-          background-color: rgb(20, 22, 31);
-          background-image: none;
-
-
-  }
-
-  .colecciones__backgrounddisney {
-          background-color: rgb(20, 22, 31);
-          object-fit: cover;
-
-
-
-  .colecciones__backgroundpixar {
-          background-color: rgb(20, 22, 31);
-          object-fit: cover;
-
-  }
-
-  .colecciones__backgroundnational {
-          background-color: rgb(20, 22, 31);
-          object-fit: cover;
-
-  }
-
-  .colecciones__backgroundstarWars {
-          background-color: rgb(20, 22, 31);
-          object-fit: cover;
-
-  }
-}
-}
