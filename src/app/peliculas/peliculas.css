@@ -1,0 +1,33 @@
+.series{
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    padding-left: 15px;
+}
+.series h1{
+    color: white;
+    font-size: 50px;
+    padding: 10px;
+    border-bottom: 2px solid white; 
+}
+.series__tarjetas{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.series h2{
+    color: white;
+    font-size: 50px;
+    padding: 10px;
+    margin:15px
+}
+
+.series__container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.container__tarjetas__flex{
+    display: flex;
+    flex-wrap: wrap;
+}
