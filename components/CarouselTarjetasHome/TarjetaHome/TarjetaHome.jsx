@@ -1,6 +1,6 @@
 "use client"
 import React from 'react'
-import '../TarjetaHome/tarjetaHome.css'
+import './tarjetaHome.css'
 
 const TarjetaHome = ( {movie} ) => {
 

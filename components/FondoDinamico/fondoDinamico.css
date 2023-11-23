@@ -1,0 +1,34 @@
+.fondoDinamico{
+    width: 100%;
+    height: 450px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.fondoDinamico img{
+    width: 100%;
+    height: 100%;
+}
+
+.fondoDinamico__info{
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    color: white;
+}
+
+.fondoDinamico__info h1{
+   font-size: 60px;
+}
+
+.fondoDinamico__info h4{
+    padding-left: 12px;
+ }
+ .fondoDinamico__tarjetas{
+    position: absolute;
+    z-index: 10;
+    width: 100%;
+    top: 75%;
+    
+ }
+ 

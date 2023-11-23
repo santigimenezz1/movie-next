@@ -1,0 +1,44 @@
+
+
+.navBarMobile {
+    width: 100%;
+    height: 80px;
+      position: fixed;
+      bottom: 0;
+      display: none;
+      align-items: center;
+      padding: 12px 30px;
+      background: rgba(255, 255, 255, 0.01);
+      backdrop-filter: blur(10px);
+      box-shadow: rgba(0, 0, 0, 0.274) 0px 0.3px ; 
+      backdrop-filter: blur(10px); /* Agrega el efecto de desenfoque */
+      z-index: 5; /* Asegura que la barra esté por encima del contenido desenfocado */
+      border-bottom: 1px solid rgba(104, 4, 204, 0.711);
+      justify-content: center;
+      gap: 30px;
+      border-top: 1px solid rgba(104, 4, 204, 0.185);
+      
+  
+  
+  }
+  
+  .navBarMobile h1{
+    font-size: 22px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  
+  /* Mostrar NavBarMobile solo en resoluciones menores a 760px */
+  
+    @media (max-width: 500px) {
+      .navBarMobile {
+        display: flex;
+      }
+    }
+  
+  
+  
+  
+  
+  

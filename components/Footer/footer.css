@@ -1,0 +1,36 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    background-color: rgb(70, 70, 141);
+    margin-top: 50px;
+}
+.footer img{
+ width: 200px;
+}
+.footer h1{
+    font-size: 15px;
+   }
+
+
+   @media screen and (max-width: 600px){
+    .footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+   }
+
+   @media screen and (max-width: 500px){
+    .footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 5px;
+        padding: 15px;
+    }
+    .footer img{
+        width: 150px;
+       }
+   }

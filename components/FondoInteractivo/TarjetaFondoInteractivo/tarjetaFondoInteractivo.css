@@ -1,0 +1,98 @@
+.tarjetaFondoInteractivo{
+    width: 310px;
+    height: 180px;
+    border: none;
+    border-radius: 12px;
+    position: relative;
+    transition: all .4s;
+    cursor: pointer;
+    margin: 10px;
+   
+
+}
+.tarjetaFondoInteractivo:hover{
+    transform: scale(1.05);
+}
+.tarjetaFondoInteractivo__img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    padding: 2px;
+    opacity: 0.7;
+}
+.tarjetaFondoInteractivo__iconoPlay{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    z-index: 1;
+    transition: all .3s;
+}
+
+.tarjetaFondoInteractivo:hover .tarjetaFondoInteractivo__iconoPlay {
+    transform: scale(1.05); /* Escala el ícono cuando se realiza un hover en la tarjeta */
+}
+
+.container__fondoInteractivo__titulo{
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+
+
+
+@media screen and (max-width:1000px) {
+    .tarjetaFondoInteractivo{
+        width: 220px;
+        height: 140px;
+      
+    
+    }
+  }
+
+
+  @media screen and (max-width:1000px) {
+    .tarjetaFondoInteractivo{
+        width: 220px;
+        height: 140px;
+    }
+  }
+
+  
+  @media screen and (max-width:900px) {
+    .tarjetaFondoInteractivo{
+        width: 190px;
+        height: 120px;
+    }
+  }
+
+    
+  @media screen and (max-width:800px) {
+    .tarjetaFondoInteractivo{
+        width: 260px;
+        height: 140px;
+    }
+  }
+
+  @media screen and (max-width:600px) {
+    .tarjetaFondoInteractivo{
+        width: 210px;
+        height: 110px;
+    }
+  }
+
+
+  @media screen and (max-width:460px) {
+    .tarjetaFondoInteractivo{
+        width: 190px;
+        height: 110px;
+    }
+  }
+
+  @media screen and (max-width:460px) {
+    .tarjetaFondoInteractivo{
+        width: 170px;
+        height: 110px;
+    }
+  }
