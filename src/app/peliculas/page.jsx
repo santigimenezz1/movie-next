@@ -1,5 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
+import '../series/series.css'
 import { peticionPeliculasSeViene, peticionPeliculasTendencia, peticionPeliculaspPopulares } from '../../../components/PeticionesFetch/PeticionesFetch'
 import TarjetaSerie from '../../../components/TarjetaSerie/TarjetaSerie'
 
