@@ -1,0 +1,80 @@
+.colecciones {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  
+  .colecciones__background {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://res.cloudinary.com/dcf9eqqgt/image/upload/v1699389982/App%20peliculas/scale_kmvedz.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -2; /* Coloca el fondo detrás del contenido */
+  }
+  .colecciones__backgrounddisney {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://res.cloudinary.com/dcf9eqqgt/image/upload/v1699409467/App%20peliculas/f2ral8b5FoWsXyFbQ7928ZPjUm3_dltpwd.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -2; /* Coloca el fondo detrás del contenido */
+  }
+  .colecciones__backgroundpixar {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://res.cloudinary.com/dcf9eqqgt/image/upload/v1699409039/App%20peliculas/wZiUsAI939lOKgs0u3qA3zSW7zx_nt8iue.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -2; /* Coloca el fondo detrás del contenido */
+  }
+
+  .colecciones__backgroundnational {
+    width: 100%;
+    height: 100%;
+    background-image: url("https://res.cloudinary.com/dcf9eqqgt/image/upload/v1699409344/App%20peliculas/Cheetah_Cubs_South_Africa-National_Geographic_wallpaper_1920x1080_kfvhv1.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -2; /* Coloca el fondo detrás del contenido */
+  }
+  .colecciones__backgroundstarWars{
+    width: 100%;
+    height: 100%;
+    background-image: url("https://res.cloudinary.com/dcf9eqqgt/image/upload/v1699409147/App%20peliculas/uK15I3sGd8AudO9z6J6vi0HH1UU_zxt4zk.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -2; /* Coloca el fondo detrás del contenido */
+  }
+  
+  .colecciones__tarjetas {
+    margin-top: 400px;
+    background-color: rgba(20, 22, 31, 0); /* Fondo inicialmente transparente */
+    transition: background-color 0.5s; /* Transición suave del color de fondo */
+  }
+  
+  
+  /* Agrega una clase para cambiar el fondo a gris cuando sea necesario */
+  .colecciones.scrolled .colecciones__tarjetas {
+    background: rgba(20, 22, 31, 1); /* Cambia el fondo a gris sólido */
+  }
+  
