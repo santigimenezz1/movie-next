@@ -2,7 +2,7 @@
 import React from 'react'
 import './tarjetaSerie.css'
 import Link from 'next/link'
-import '../../src/app/mediaQuery.css'
+import '../../components/MediaQuery/MediaQuery.css'
 
 const scrollToTop = () => {
   setTimeout(() => {

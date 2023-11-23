@@ -1,5 +1,9 @@
+import CarouselTarjetaHome from "../../../components/CarouselTarjetasHome/CarouselTarjetaHome"
+import CarouselTarjetasPelicula from "../../../components/CarouselTarjetasPelicula/CarouselTarjetasPelicula"
+import CarouselTarjetasSerie from "../../../components/CarouselTarjetasSerie/CarouselTarjetasSerie"
+import FondoInteractivo from "../../../components/FondoInteractivo/FondoInteractivo"
+import { peticionPeliculasNuevas, peticionPeliculasSeViene, peticionPeliculasTendencia, peticionPeliculaspPopulares } from "../../../components/PeticionesFetch/PeticionesFetch"
 import TarjetasColeccion from "../../../components/TarjetasColeccion/TarjetasColeccion"
-import { peticionPeliculasNuevas, peticionPeliculasSeViene, peticionPeliculasTendencia, peticionPeliculaspPopulares } from "../peticionesFetch/page"
 
 export default async function Home() {
   

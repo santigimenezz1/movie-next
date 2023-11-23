@@ -7,6 +7,7 @@ import TarjetaHome from "./TarjetaHome/TarjetaHome";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect } from "react";
+import Slider from "react-slick";
 
 export default function CarouselTarjetaHome( {data ,text} ) {
 
