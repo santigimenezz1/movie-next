@@ -4,7 +4,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import TarjetaPelicula from "../TarjetaPelicula/TarjetaPelicula";
-import './carouselTarjetaPelicula.css';
+import './carouselTarjetasPelicula.css';
 import Link from 'next/link';
 
 export default function CarouselTarjetasPelicula({ data, text }) {

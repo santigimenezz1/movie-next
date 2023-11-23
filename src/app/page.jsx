@@ -1,8 +1,10 @@
-import Image from 'next/image'
-import styles from './page.module.css'
 
-export default function Home() {
+import styles from './page.module.css'
+import '../app/mediaQuery.css'
+import Home from './home/page'
+export default function App( {children} ) {
   return (
-   <h1>nueva pagina web</h1>
+  <Home />
   )
 }
+
