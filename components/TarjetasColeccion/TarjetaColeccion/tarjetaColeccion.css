@@ -1,0 +1,72 @@
+.tarjetaColeccion {
+    max-width: 235px;
+    max-height: 130px;
+    border-radius: 7px;
+    background-color: rgb(26, 29, 41);
+    cursor: pointer;
+    transition: all 0.2s;
+    box-shadow: rgba(0, 0, 0, 0.69) 0px 20px 20px -10px, rgba(0, 0, 0, 0.73) 0px 10px 10px -10px;
+    position: relative; /* Agrega esta propiedad */
+  }
+  
+  .videoFondo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    display: none; /* Oculta el video inicialmente */
+    z-index: -1; /* Coloca el video detrás de la imagen */
+  }
+  
+  .tarjetaColeccion img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .tarjetaColeccion:hover .videoFondo {
+    display: block; /* Muestra el video cuando el cursor está sobre la tarjeta */
+  }
+  
+  .tarjetaColeccion:hover {
+    transform: scale(1.08);
+    border: 3px solid white;
+  }
+  
+  
+  @media screen and (max-width:900px){
+    .tarjetaColeccion {
+      width: 150px;
+    }
+  }
+  
+  @media screen and (max-width:800px){
+    .tarjetaColeccion {
+      width: 125px;
+    }
+  }
+  
+  @media screen and (max-width:700px){
+    .tarjetaColeccion {
+      width: 110px;
+    }
+  }
+  
+  @media screen and (max-width:600px){
+    .tarjetaColeccion {
+      width: 150px;
+    }
+  }
+  @media screen and (max-width:460px){
+    .tarjetaColeccion {
+      width: 180px;
+    }
+  }
+  
+  @media screen and (max-width:400px){
+    .tarjetaColeccion {
+      width: 250px;
+    }
+  }

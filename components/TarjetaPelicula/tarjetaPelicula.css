@@ -1,0 +1,48 @@
+.tarjetaPelicula {
+    width: 98%;
+    height: 360px;
+    border: none;
+    border-radius: 12px;
+    position: relative;
+    transition: all .4s;
+    cursor: pointer;
+    margin: 10px;
+    overflow: hidden; 
+    box-shadow: rgba(0, 0, 0, 0.69) 0px 16px 10px -10px, rgba(0, 0, 0, 0.73) 0px 16px 10px -10px
+
+}
+
+.tarjetaPelicula h1 {
+    color: white;
+    position: absolute;
+    top: 50%; /* Alinea la parte superior del título con el centro de la tarjeta */
+    left: 50%; /* Alinea la izquierda del título con el centro de la tarjeta */
+    transform: translate(-50%, -50%); /* Centra el título */
+    display: none;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+}
+.tarjetaPelicula {
+    border: 3px solid rgb(20, 22, 31);
+    position: relative;
+    transition: all .2s;
+}
+
+.tarjetaPelicula:hover {
+    border: 3px solid white;
+}
+
+.tarjetaPelicula:hover h1 {
+    display: block;
+}
+.tarjetaPelicula__img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+    object-fit: cover;
+    object-position: center;
+    z-index: -1;
+}
+

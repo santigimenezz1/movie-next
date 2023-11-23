@@ -1,0 +1,45 @@
+.repartoActores{
+    padding: 10px;
+    display: flex;
+    gap: 10px; 
+    display: flex;
+    justify-content: center;
+   
+}
+.titulo__repartoActores{
+    color: white;
+    font-size: 30px;
+    margin: 25px;
+    border-bottom: 2px solid white;
+    padding-left: 30px;
+}
+.repartoActores__tarjetas{
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    gap: 10px;
+    margin: 15px; 
+}
+
+
+
+@media screen and (max-width: 1000px) {
+    .repartoActores__tarjetas{
+       display: flex;
+       width: 100%;
+       justify-content: center;
+       gap: 1px;
+       margin: 10px; 
+       flex-wrap: wrap;
+   }
+   .repartoActores{
+    padding: 10px;
+    display: flex;
+    gap: 10px; 
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+ }
+ 

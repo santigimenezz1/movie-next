@@ -1,0 +1,7 @@
+.tarjetasColeccion{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: auto;
+    flex-wrap: wrap;
+}
