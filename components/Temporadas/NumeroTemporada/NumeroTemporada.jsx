@@ -1,8 +1,8 @@
 "use client"
-import { peticionCapituloTemporada } from "@/src/app/peticionesFetch/page"
 import React, { useState } from "react"
 import '../NumeroTemporada/numeroTemporada.css'
 import { useScrollTrigger } from "@mui/material"
+import { peticionCapituloTemporada } from "../../PeticionesFetch/PeticionesFetch"
 const NumeroTemporada = ( {season, temporada, index, setCapitulosTemporada, id, temporadaSelect, setTemporadaSelect} )=>{
     let numero = index + 1
     async function cambiarCapitulos (numeroTemporada, id ){

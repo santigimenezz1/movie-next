@@ -12,7 +12,7 @@ const RepartoActoresSerie = ( {reparto, id, data} )=>{
             <div className="repartoActores__tarjetas">
          {
             reparto.cast.slice(0,7).map((actor)=>(
-                <Link key={actor.id}  style={{textDecoration:"none", color:"white"}} href={`/detalle/${id}/Biografia/${actor.id}`}>
+                <Link key={actor.id}  style={{textDecoration:"none", color:"white"}} href={`/detalle/${id}/biografia/${actor.id}`}>
                 <TarjetaActor actor={actor} />
                 </Link>
             ))

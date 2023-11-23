@@ -1,10 +1,9 @@
 'use client'
 import React, { useEffect, useState } from "react"
 import '../Temporadas/temporadas.css'
+import { peticionCapituloTemporada } from "../PeticionesFetch/PeticionesFetch"
 import NumeroTemporada from "./NumeroTemporada/NumeroTemporada"
-import TarjetaCapitulo from "../TarjetaCapitulo/TarjetaCapitulo"
-import CarouselTarjetasCapitulos from "../CarouselTarjetasCapitulos/CarouselTarjetasCapitulos"
-import { peticionCapituloTemporada} from "@/src/app/peticionesFetch/page"
+import CarouselTarjetasCapitulos from "../CarouselTarjetasCapitulos/CarouselTarjetaCapitulos"
 const Temporadas = ({ data }) => {
     let seasons = data.seasons
     let id = data.id
