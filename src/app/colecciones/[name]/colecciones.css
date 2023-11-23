@@ -15,8 +15,6 @@
     top: 0;
     left: 0;
     z-index: -2; /* Coloca el fondo detrás del contenido */
-    object-fit: cover;
-
   }
   .colecciones__backgrounddisney {
     width: 100%;
@@ -29,8 +27,6 @@
     top: 0;
     left: 0;
     z-index: -2; /* Coloca el fondo detrás del contenido */
-    object-fit: cover;
-
   }
   .colecciones__backgroundpixar {
     width: 100%;
@@ -43,8 +39,6 @@
     top: 0;
     left: 0;
     z-index: -2; /* Coloca el fondo detrás del contenido */
-    object-fit: cover;
-
   }
 
   .colecciones__backgroundnational {
@@ -58,8 +52,6 @@
     top: 0;
     left: 0;
     z-index: -2; /* Coloca el fondo detrás del contenido */
-    object-fit: cover;
-
   }
   .colecciones__backgroundstarWars{
     width: 100%;
@@ -72,7 +64,6 @@
     top: 0;
     left: 0;
     z-index: -2; /* Coloca el fondo detrás del contenido */
-    object-fit: cover;
   }
   
   .colecciones__tarjetas {
@@ -87,3 +78,35 @@
     background: rgba(20, 22, 31, 1); /* Cambia el fondo a gris sólido */
   }
   
+@media screen and (max-width:500px) {
+  .colecciones__background {
+    background-image: url("https://res.cloudinary.com/dcf9eqqgt/image/upload/v1700779307/App%20peliculas/photo-1603366615917-1fa6dad5c4fa_jseqrc.jpg");
+
+
+  }
+
+  .colecciones__backgrounddisney {
+    background-image: url("https://res.cloudinary.com/dcf9eqqgt/image/upload/v1700779307/App%20peliculas/photo-1603366615917-1fa6dad5c4fa_jseqrc.jpg");
+    
+  }
+
+
+  .colecciones__backgroundpixar {
+    background-image: url("https://res.cloudinary.com/dcf9eqqgt/image/upload/v1700779307/App%20peliculas/photo-1603366615917-1fa6dad5c4fa_jseqrc.jpg");
+     
+
+  }
+
+  .colecciones__backgroundnational {
+        background-image: url("https://res.cloudinary.com/dcf9eqqgt/image/upload/v1700779307/App%20peliculas/photo-1603366615917-1fa6dad5c4fa_jseqrc.jpg");
+    
+
+  }
+
+  .colecciones__backgroundstarWars {
+       background-image: url("https://res.cloudinary.com/dcf9eqqgt/image/upload/v1699409147/App%20peliculas/uK15I3sGd8AudO9z6J6vi0HH1UU_zxt4zk.jpg");
+     
+
+  }
+}
+
