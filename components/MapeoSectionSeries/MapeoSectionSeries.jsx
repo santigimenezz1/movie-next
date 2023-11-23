@@ -1,5 +1,4 @@
 
-import { peticionSeriesEnElAire, peticionSeriesPopulares, peticionSeriesTendencia } from '@/src/app/peticionesFetch/page';
 import React from "react"
 import TarjetaSerie from "../TarjetaSerie/TarjetaSerie"
 import '../../src/app/series/series.css'

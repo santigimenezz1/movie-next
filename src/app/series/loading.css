@@ -1,0 +1,18 @@
+.loading__series{
+    width: 100%;
+    height: auto;
+    padding: 30px;
+    margin-top: 70px;
+  
+}
+.loading__series{
+    color: white;
+    font-size: 22px;
+}
+.loading__series__eskeletons{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
