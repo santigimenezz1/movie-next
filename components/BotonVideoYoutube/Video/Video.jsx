@@ -4,8 +4,8 @@ import BotonClose from "../BotonClose/BotonClose";
 
 const Video = ( {openVideo, closeVideo, showVideo, setShowVideo, videoId, estadoBotonCerrar, setEstadoBotonCerrar} )=>{
   const opts = {
-    height: '360',
-    width: '640',
+    width: '100%',
+    heigth: '100%',
     playerVars: {
       autoplay: 1,
     },
