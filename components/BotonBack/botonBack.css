@@ -9,3 +9,18 @@
     font-weight: bold;
     letter-spacing: 1px;
 }
+
+@media screen and (max-width:700px) {
+    .detalle__botonVolver{
+        width: 120px;
+        height: 35px;
+        border-radius: 4px;
+        border: none;
+        background-color: rgba(255, 255, 255, 0.407);
+        cursor: pointer;
+        color: white;
+        font-weight: bold;
+        letter-spacing: 1px;
+        margin-top: 20px;
+    }   
+}

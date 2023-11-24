@@ -31,7 +31,9 @@ return (
   <>
     <div className='detalle'>
       <div className='detalle__imagenPrincipal'>
+        <div>
         <BotonBack />
+        </div>
         <TarjetaImagenDetalle urlImagen={urlImagen} />
       </div>
       <img className='detalle__imgFondo' src={urlImagen} alt="Imagen de la película" />

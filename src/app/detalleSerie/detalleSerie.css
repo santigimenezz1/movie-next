@@ -106,7 +106,6 @@
     }
     .detalle__imagenPrincipal{
         z-index: 2;
-        height: 400px;  
     }
     .detalle__info{
         color: white;

@@ -19,9 +19,9 @@
 
     .tarjetaImagenDetalle img{
         width: 400px;
-        height: 350px;
+        height: auto;
         margin: 20px;
-        object-fit: fill;
+        object-fit: cover;
     }
 
 
