@@ -16,3 +16,19 @@
 }
 
 
+@media screen and (max-width: 460px){
+    .contaier__repartoCompleto{
+        color: white;
+        padding-left:10px;
+        margin-top: 30px;
+        border: 1px solid red;
+        
+    }
+    .repartoCompletoTarjetas__cast{
+        padding: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+    }
+}

@@ -119,16 +119,31 @@
 
 }
 
-@media screen and (max-width:800px) {
+@media screen and (max-width:700px) {
   .buscador__input{
     width: 75%;
   }
 
+  .buscador__input::placeholder {
+    font-size: 30px;
+  }
 }
 
+@media screen and (max-width:600px) {
+  .buscador__input{
+    width: 75%;
+  }
+
+  .buscador__input::placeholder {
+    font-size: 25px;
+  }
+}
 @media screen and (max-width:460px) {
   .buscador__input{
     width: 70%;
+  }
+  .buscador__input::placeholder {
+    font-size: 20px;
   }
 
 }

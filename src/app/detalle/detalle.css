@@ -139,6 +139,32 @@
     }
 }
 
+@media screen and (max-width:414px) {
+    .detalle__info__description{
+        justify-content: center;
+        align-items: start;
+        text-align: start;
+        width: 90%;
+      }
+      .detalle__info__description h1{
+        padding-left: 60px;
+      }
+  
+      .detalle__info__description span{
+          font-size: 22px; 
+        }
+        .detalle__info__titulo {
+            padding-left: 20px;
+        }
+        .detalle__info__titulo h1{
+            font-size: 9vw;
+            text-align: start;
+        }
+        .detalle__info__titulo h3{
+            text-align: start;
+        }
+}
+
 
         
         

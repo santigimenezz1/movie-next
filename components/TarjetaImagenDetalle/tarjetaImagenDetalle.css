@@ -26,3 +26,20 @@
 
 
 }
+
+@media screen and (max-width: 414px) {
+    .tarjetaImagenDetalle{
+        width: auto;
+        height: auto;
+        margin: 20px;
+    }
+
+    .tarjetaImagenDetalle img{
+        width: 340px;
+        height: auto;
+        margin: 20px;
+        object-fit: cover;
+    }
+
+
+}
