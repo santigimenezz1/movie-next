@@ -133,6 +133,9 @@
         text-align: center;
         width: 90%;
       }
+      .detalle__info__description span{
+        font-size: 20px;
+      }
     .detalle__info__titulo h1{
         font-size: 7vw;
     }
@@ -142,6 +145,9 @@
     .detalle__info__titulo h1{
         font-size: 7vw;
     }
+    .detalle__info__description span{
+        font-size: 18px;
+      }
 }
 
 

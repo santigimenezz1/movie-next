@@ -133,6 +133,9 @@
   .buscador__input{
     width: 75%;
   }
+  .buscador__input {
+    font-size: 25px;
+  }
 
   .buscador__input::placeholder {
     font-size: 25px;
@@ -141,6 +144,9 @@
 @media screen and (max-width:460px) {
   .buscador__input{
     width: 70%;
+  }
+  .buscador__input {
+    font-size: 20px;
   }
   .buscador__input::placeholder {
     font-size: 20px;
@@ -152,6 +158,25 @@
 @media screen and (max-width:414px) {
   .buscador__input{
     width: 65%;
+  }
+  .buscador__input::placeholder {
+    font-size: 16px;
+  }
+  .buscador__input {
+    font-size: 20px;
+  }
+
+}
+
+@media screen and (max-width:360px) {
+  .buscador__input{
+    width: 60%;
+  }
+  .buscador__input::placeholder {
+    font-size: 12px;
+  }
+  .buscador__input {
+    font-size: 14px;
   }
 
 }
