@@ -125,6 +125,19 @@
     }
 }
 
+
+@media screen and (max-width: 700px) {
+    .detalle__info__description{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 90%;
+      }
+    .detalle__info__titulo h1{
+        font-size: 7vw;
+    }
+}
+
 @media screen and (max-width: 460px) {
     .detalle__info__titulo h1{
         font-size: 7vw;
