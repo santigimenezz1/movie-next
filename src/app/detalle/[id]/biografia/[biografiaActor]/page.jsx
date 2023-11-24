@@ -22,7 +22,7 @@ async function BiografiaActor ( {params} ){
         <div className='botonVolver__biografia'>
         <BotonBack  />
         </div>
-        <div className="biografia">
+        <div className="biografia__actor">
                 <img src={urlImagen}></img>
                 <div className="boigrafia__info">
                     <h1>{name}</h1>
@@ -38,7 +38,7 @@ async function BiografiaActor ( {params} ){
                         </div>
                     <div className='biografia__info__trabajos'>
                         <h1>Conocido por:</h1>
-                        <div style={{display:"flex", gap:"10px"}}>
+                        <div className='biografia__tarjetas__trabajos' >
                             {
                                 trabajosBiografia.cast.slice(0,6).map((trabajo, index)=>(
                                     <TarjetaBiografia key={index}  trabajo={trabajo}  />

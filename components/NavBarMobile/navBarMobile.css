@@ -13,7 +13,7 @@
       box-shadow: rgba(0, 0, 0, 0.274) 0px 0.3px ; 
       backdrop-filter: blur(10px); /* Agrega el efecto de desenfoque */
       z-index: 5; /* Asegura que la barra esté por encima del contenido desenfocado */
-      border-bottom: 1px solid rgba(104, 4, 204, 0.711);
+      border-top: 1px solid rgba(104, 4, 204, 0.711);
       justify-content: center;
       gap: 30px;
       border-top: 1px solid rgba(104, 4, 204, 0.185);
