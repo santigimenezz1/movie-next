@@ -1,6 +1,6 @@
 .tarjetaPelicula {
     width: 98%;
-    height: 360px;
+    height: 490px;
     border: none;
     border-radius: 12px;
     position: relative;
@@ -8,7 +8,7 @@
     cursor: pointer;
     margin: 10px;
     overflow: hidden; 
-    box-shadow: rgba(0, 0, 0, 0.69) 0px 16px 10px -10px, rgba(0, 0, 0, 0.73) 0px 16px 10px -10px
+    box-shadow: rgba(0, 0, 0, 0.69) 0px 16px 10px -10px, rgba(0, 0, 0, 0.73) 0px 16px 10px -10px;
 
 }
 

@@ -4,6 +4,7 @@ import CarouselTarjetasSerie from "../../../components/CarouselTarjetasSerie/Car
 import FondoInteractivo from "../../../components/FondoInteractivo/FondoInteractivo"
 import { peticionPeliculasNuevas, peticionPeliculasSeViene, peticionPeliculasTendencia, peticionPeliculaspPopulares } from "../../../components/PeticionesFetch/PeticionesFetch"
 import TarjetasColeccion from "../../../components/TarjetasColeccion/TarjetasColeccion"
+import '../home/home.css'
 
 export default async function Home() {
   
@@ -21,7 +22,9 @@ export default async function Home() {
       <TarjetasColeccion />
       </div>
       <div className='container__general'>
+        <div className="container__general__loMasPopular">
       <CarouselTarjetaHome data={data} text={"Lo mas popular"} />
+        </div>
       <CarouselTarjetaHome data={peliculasSeViene} text={"Lo que se viene"} />
       <CarouselTarjetasSerie data={nuevasPeliculas} text={"Recientes"}  />
       <FondoInteractivo />
